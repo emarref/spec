@@ -1,0 +1,30 @@
+{
+  "name": "emarref/spec",
+  "description": "Implementation of the Specification pattern.",
+  "type": "library",
+  "keywords": [
+    "specification",
+    "spec"
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Malcolm Fell",
+      "email": "emarref@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Emarref\\Spec\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Emarref\\Spec\\Test\\": "tests/"
+    }
+  }
+}
